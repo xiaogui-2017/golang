@@ -12,6 +12,7 @@ type User struct {
 	Age  int
 }
 
+
 // 类方法
 func (u User) Hello() {
 	fmt.Println("hello world")
